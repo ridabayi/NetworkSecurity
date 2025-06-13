@@ -35,3 +35,28 @@ def write_yaml_file(file_path: str, content: object, replace:bool = False) -> No
 
     except Exception as e:
         raise NetworkSecurityException(e, sys)
+    
+def save_numpy_array_data(file_path: str, array: np.array):
+    """
+    Saves a NumPy array to a file using pickle.
+    
+    :param file_path: Path to the file where the array will be saved.
+    :param array: NumPy array to save.
+    """
+    try:
+        dir_path = os.path.dirname(file_path)
+        os.makedirs(dir_path, exist_ok=True)
+        with open(file_path, 'wb') as file_obj:
+            pickle.dump(file_obj, array)
+    except Exception as e:
+        raise NetworkSecurityException(e, sys)
+    
+def save_object(file_path: str, obj: object):
+    try:
+        logging.info("Entred the save_object method of mainutils class")
+        os.makedirs(os.path.dirname(file_path), exist_ok=True)
+        with open(file_path, 'wb') as file_obj:
+            pickle.dump(obj, file_obj)
+        logging.info("Exited the save_object method of mainutils class")
+    except Exception as e:
+        raise NetworkSecurityException(e, sys)
