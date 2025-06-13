@@ -34,6 +34,7 @@ DATA_VALIDATION_VALID_DIR: str = "valid"
 DATA_VALIDATION_INVALID_DIR: str = "invalid"
 DATA_VALIDATION_DRIFT_REPORT_DIR: str = "drift_report"
 DATA_VALIDATION_DRIFT_REPORT_FILE_NAME: str = "report.yaml"
+PREPROCESSED_OBJECT_FILE_NAME = "preprocessing.pkl"
 
 """data transformation constant file"""
 DATA_TRANSFORMATION_DIR_NAME: str = "data_transformation"  
