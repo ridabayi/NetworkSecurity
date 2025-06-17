@@ -1,0 +1,27 @@
+[ 2025-06-17 10:11:24,148 ] 161 numexpr.utils - INFO - NumExpr defaulting to 12 threads.
+[ 2025-06-17 10:11:26,362 ] 19 root - INFO - Initiate the data ingestion
+[ 2025-06-17 10:11:28,011 ] 65 root - INFO - Performed train test split on the dataframe
+[ 2025-06-17 10:11:28,011 ] 67 root - INFO - Exited split_data_as_train_test method of Data_Ingestion class
+[ 2025-06-17 10:11:28,012 ] 75 root - INFO - Exporting train and test file path.
+[ 2025-06-17 10:11:28,076 ] 84 root - INFO - Exported train and test file path.
+[ 2025-06-17 10:11:28,076 ] 21 root - INFO - Data Initiation Completed
+[ 2025-06-17 10:11:28,084 ] 25 root - INFO - Initiate the data Validation
+[ 2025-06-17 10:11:28,110 ] 32 root - INFO - Required number of columns:2
+[ 2025-06-17 10:11:28,110 ] 33 root - INFO - Data frame has columns:31
+[ 2025-06-17 10:11:28,110 ] 32 root - INFO - Required number of columns:2
+[ 2025-06-17 10:11:28,110 ] 33 root - INFO - Data frame has columns:31
+[ 2025-06-17 10:11:28,280 ] 27 root - INFO - data Validation Completed
+[ 2025-06-17 10:11:28,282 ] 30 root - INFO - Datatransformation started
+[ 2025-06-17 10:11:28,282 ] 46 root - INFO - Entered initiate_data_transformation method of DataTransformation class
+[ 2025-06-17 10:11:28,282 ] 48 root - INFO - Starting data transformation
+[ 2025-06-17 10:11:28,282 ] 26 root - INFO - Reading data from Artifacts\06_17_2025_10_11_24\data_ingestion\ingested\train.csv
+[ 2025-06-17 10:11:28,298 ] 26 root - INFO - Reading data from Artifacts\06_17_2025_10_11_24\data_ingestion\ingested\test.csv
+[ 2025-06-17 10:11:28,308 ] 56 root - INFO - Input features for training: ['having_IP_Address', 'URL_Length', 'Shortining_Service', 'having_At_Symbol', 'double_slash_redirecting', 'Prefix_Suffix', 'having_Sub_Domain', 'SSLfinal_State', 'Domain_registeration_length', 'Favicon', 'port', 'HTTPS_token', 'Request_URL', 'URL_of_Anchor', 'Links_in_tags', 'SFH', 'Submitting_to_email', 'Abnormal_URL', 'Redirect', 'on_mouseover', 'RightClick', 'popUpWidnow', 'Iframe', 'age_of_domain', 'DNSRecord', 'web_traffic', 'Page_Rank', 'Google_Index', 'Links_pointing_to_page', 'Statistical_report']
+[ 2025-06-17 10:11:28,309 ] 57 root - INFO - Target feature for training: Result
+[ 2025-06-17 10:11:28,310 ] 63 root - INFO - Input features for testing: ['having_IP_Address', 'URL_Length', 'Shortining_Service', 'having_At_Symbol', 'double_slash_redirecting', 'Prefix_Suffix', 'having_Sub_Domain', 'SSLfinal_State', 'Domain_registeration_length', 'Favicon', 'port', 'HTTPS_token', 'Request_URL', 'URL_of_Anchor', 'Links_in_tags', 'SFH', 'Submitting_to_email', 'Abnormal_URL', 'Redirect', 'on_mouseover', 'RightClick', 'popUpWidnow', 'Iframe', 'age_of_domain', 'DNSRecord', 'web_traffic', 'Page_Rank', 'Google_Index', 'Links_pointing_to_page', 'Statistical_report']
+[ 2025-06-17 10:11:28,310 ] 64 root - INFO - Target feature for testing: Result
+[ 2025-06-17 10:11:28,310 ] 36 root - INFO - Creating data transformation pipeline with KNNImputer
+[ 2025-06-17 10:11:28,310 ] 38 root - INFO - initialise KNNImputer with parameters: {'missing_values': nan, 'n_neighbors': 3, 'weights': 'uniform'}
+[ 2025-06-17 10:11:28,316 ] 68 root - INFO - Fitting the preprocessor on training data
+[ 2025-06-17 10:11:28,325 ] 60 root - INFO - Entred the save_object method of mainutils class
+[ 2025-06-17 10:11:28,329 ] 64 root - INFO - Exited the save_object method of mainutils class
