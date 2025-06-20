@@ -7,4 +7,6 @@ pymongo[srv]
 dill
 pyyaml
 mlflow
+fastapi
+uvicorn
 #-e .

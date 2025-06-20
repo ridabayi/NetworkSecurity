@@ -1,0 +1,7 @@
+[ 2025-06-20 14:48:56,458 ] 161 numexpr.utils - INFO - NumExpr defaulting to 12 threads.
+[ 2025-06-20 14:49:00,170 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[ 2025-06-20 14:49:00,176 ] 107 dagshub - INFO - Accessing as bayi.rida
+[ 2025-06-20 14:49:00,398 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/bayi.rida/NetworkSecurity "HTTP/1.1 200 OK"
+[ 2025-06-20 14:49:00,580 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[ 2025-06-20 14:49:00,583 ] 107 dagshub - INFO - Initialized MLflow to track repo "bayi.rida/NetworkSecurity"
+[ 2025-06-20 14:49:00,585 ] 107 dagshub - INFO - Repository bayi.rida/NetworkSecurity initialized!
