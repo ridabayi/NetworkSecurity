@@ -164,14 +164,4 @@ Feel free to fork the project and submit pull requests. Suggestions and issues a
 2. Create a new branch: `feature/your-feature-name`
 3. Submit a pull request with a clear description.
 
----
-
-## 📜 License
-
-This project is licensed under the MIT License. See `LICENSE` for details.
-
----
-
-## 🙋‍♂️ Author
-
-Made with 💻 by [Rida Bayi](https://github.com/ridabayi)
+--
